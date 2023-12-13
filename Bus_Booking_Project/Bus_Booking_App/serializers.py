@@ -7,6 +7,8 @@ class BusRouteSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 class BusScheduleSerializer(serializers.ModelSerializer):
+    route= serializers.StringRelatedField()
+    name = serializers.StringRelatedField()
     class Meta:
         model = BusSchedule
         fields = '__all__'
