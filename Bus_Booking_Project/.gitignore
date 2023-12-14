@@ -1,3 +1,9 @@
-db.sqlite3
-env/
+*.sqlite3
+media/
+../env/
 .idea/
+/static/
+/account/migrations/
+/Bus_Booking_App/migrations/
+__pycache__/
+
